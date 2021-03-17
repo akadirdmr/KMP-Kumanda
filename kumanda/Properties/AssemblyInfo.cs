@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 
 
 [assembly: AssemblyTitle("KUMANDA PROGRAMI HAKKINDA")]
-[assembly: AssemblyDescription("Kumanda muail programı ile ilgili soru görüş ve önerileiniz için"+"\n"+"  hedefuydu@gmail.com"+"\n"+"     mail adresinden iletişime geçebilirsiniz. ")]
+[assembly: AssemblyDescription("Kumanda muadil programı ile ilgili soru görüş ve önerileiniz için"+"\n"+"  hedefuydu@gmail.com"+"\n"+"     mail adresinden iletişime geçebilirsiniz. ")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Company : HALİSA")]
 [assembly: AssemblyProduct("KUMANDA")]
