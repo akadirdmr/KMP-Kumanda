@@ -30,7 +30,7 @@ namespace kumanda
         OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\vtole.accdb;Jet OLEDB:Database Password=mehmetalbayrak");
         string base64Text; //eklenecek kod
         // DEĞİŞKEN TANIMLAMALARI------------------------------------------------
-        public string vtvers="VT4";
+        public string vtvers = "VT4";
         public string prgvers = "V3.0";
         public string turutxt, zapptxt, swattxt, classtxt, ozttxt, sesartihex;
         public string seseksihex, prgartihex, prgeksihex, menuhex, powerhex, modeltxt, redhex, greenhex, bluehex, yellowhex;//kopyalama işlemi değişkenleri
@@ -456,7 +456,7 @@ namespace kumanda
                 {
                     button_sil.Invoke((MethodInvoker)delegate { pictureBox2.Visible = true; });
                     Application.DoEvents();
-                    
+
                     var id = dataGridView1.CurrentRow.Cells[0].Value.ToString(); //[0] sütun numarası
                     string url = Application.StartupPath + "\\resimler\\" + id + ".jpg";
                     if (System.IO.File.Exists(url))
@@ -472,10 +472,10 @@ namespace kumanda
                     tbloleTableAdapter.GetData();
                     vtoleDataSet.Reset();
                     this.tbloleTableAdapter.Fill(this.vtoleDataSet.tblole);
-                    
+
                     adetlabel();
                     kilitle();
-                    
+
                     button_sil.Invoke((MethodInvoker)delegate { pictureBox2.Visible = false; });
                     MessageBox.Show(id + "  ID NOLU KAYIT SİLİNDİ !!", "BİLGİ", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
@@ -663,7 +663,7 @@ namespace kumanda
             {
 
 
-            }            
+            }
         }
         public void guncellekmt()//hiç birşey takmaz günceller.
         {
@@ -695,7 +695,7 @@ namespace kumanda
             catch (Exception hata)
             {
 
-               
+
             }
         }
         protected void yedekle1(string Prmt1, string prmt2, bool prmt3)
@@ -735,11 +735,11 @@ namespace kumanda
         }
         private void animasyon_sil_thread()
         {
-           kayitsil();
-           button_sil.Invoke((MethodInvoker)delegate { pictureBox2.Visible = false; });
+            kayitsil();
+            button_sil.Invoke((MethodInvoker)delegate { pictureBox2.Visible = false; });
         }
         //FORM OLAYLARI-------------------------------------------------
-        private void dataGridView1_DataError(object sender,DataGridViewDataErrorEventArgs e)
+        private void dataGridView1_DataError(object sender, DataGridViewDataErrorEventArgs e)
         {
             if (e.Exception != null &&
                 e.Context == DataGridViewDataErrorContexts.Commit)
@@ -751,14 +751,14 @@ namespace kumanda
         {
             try
             {
-                this.dataGridView1.DataError +=new DataGridViewDataErrorEventHandler(dataGridView1_DataError);
+                this.dataGridView1.DataError += new DataGridViewDataErrorEventHandler(dataGridView1_DataError);
                 this.label1.Text = "V: 3.0";
                 pictureBox2.Visible = false;
                 this.tbloleTableAdapter.Fill(this.vtoleDataSet.tblole);
                 ayarlar();
                 GC.Collect();
                 System.GC.SuppressFinalize(this);
-               
+
             }
             catch (Exception hata)
             {
@@ -937,8 +937,8 @@ namespace kumanda
         }
         private void ToolStripMenuItem_sil_Click(object sender, EventArgs e)
         {
-            
-            
+
+
         }
         private void Ara_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -948,12 +948,12 @@ namespace kumanda
         {
             //hakkinda hakkimda = new hakkinda();
             //hakkinda hakkimda;
-            if (hakkimda==null || hakkimda.IsDisposed)
+            if (hakkimda == null || hakkimda.IsDisposed)
             {
                 hakkimda = new hakkinda();
                 hakkimda.Show();
             }
-            
+
         }
         private void Baglan_ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -1205,7 +1205,7 @@ namespace kumanda
                 string hedeftur = ".accdb";
                 //---------------HEDEF KLASÖR OLUŞTURMA değişkenleri ------------------------------------
                 string tarih = DateTime.Now.ToString("dd-MM-yyyy HH-mm");
-                string hedefklasöradi = "-KMP"+prgvers+" "+ vtvers+" YEDEK";
+                string hedefklasöradi = "-KMP" + prgvers + " " + vtvers + " YEDEK";
                 string hedefstart = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
                 string hedefyol = System.IO.Path.Combine(hedefstart, tarih + hedefklasöradi);
 
@@ -1219,7 +1219,7 @@ namespace kumanda
 
                     System.IO.File.Copy(kaynakyol, hedefyol + "\\" + kaynakdosya + hedeftur);//taşı
                     yedekle1(kaynakklasor + "\\resimler", hedefyol + "\\resimler", true);
-                    MessageBox.Show(vtvers+" VERİTABANI MASAÜSTÜNE YEDEKLENDİ.");
+                    MessageBox.Show(vtvers + " VERİTABANI MASAÜSTÜNE YEDEKLENDİ.");
                 }
                 else
                 {
@@ -1623,13 +1623,10 @@ namespace kumanda
         }
         private void button_guncelle_Click(object sender, EventArgs e)
         {
-
             ThreadStart threadStart = new ThreadStart(animasyon_guncelle_thread);
             Thread thread = new Thread(threadStart);
             thread.SetApartmentState(ApartmentState.STA);
             thread.Start();
-
-
         }
         private void Button_ekle_Click(object sender, EventArgs e)
         {

@@ -36,23 +36,6 @@
             this.vtoleDataSet = new kumanda.vtoleDataSet();
             this.tbloleTableAdapter = new kumanda.vtoleDataSetTableAdapters.tbloleTableAdapter();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ukıdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.turuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.swatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.oztDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.zappDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sesartiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.seseksiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.prgartiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.prgeksiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.menuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.powerDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.red = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.green = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.blue = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.yellow = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.modelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contextMenuStrip_copy = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem_copy = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem_paste = new System.Windows.Forms.ToolStripMenuItem();
@@ -153,6 +136,23 @@
             this.hakkinda_ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.ukıdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.turuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.swatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.oztDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.zappDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.classDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sesartiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.seseksiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prgartiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prgeksiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.menuDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.powerDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.red = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.green = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.blue = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.yellow = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.modelDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.tbloleBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vtoleDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -232,151 +232,6 @@
             this.dataGridView1.TabStop = false;
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.DataGridView1_SelectionChanged);
             this.dataGridView1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DataGridView1_KeyDown);
-            // 
-            // ukıdDataGridViewTextBoxColumn
-            // 
-            this.ukıdDataGridViewTextBoxColumn.DataPropertyName = "ukıd";
-            this.ukıdDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.ukıdDataGridViewTextBoxColumn.Name = "ukıdDataGridViewTextBoxColumn";
-            this.ukıdDataGridViewTextBoxColumn.ReadOnly = true;
-            this.ukıdDataGridViewTextBoxColumn.Width = 50;
-            // 
-            // turuDataGridViewTextBoxColumn
-            // 
-            this.turuDataGridViewTextBoxColumn.DataPropertyName = "turu";
-            this.turuDataGridViewTextBoxColumn.FillWeight = 176.2238F;
-            this.turuDataGridViewTextBoxColumn.HeaderText = "TÜRÜ";
-            this.turuDataGridViewTextBoxColumn.Name = "turuDataGridViewTextBoxColumn";
-            this.turuDataGridViewTextBoxColumn.ReadOnly = true;
-            this.turuDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // swatDataGridViewTextBoxColumn
-            // 
-            this.swatDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
-            this.swatDataGridViewTextBoxColumn.DataPropertyName = "swat";
-            this.swatDataGridViewTextBoxColumn.FillWeight = 156.8657F;
-            this.swatDataGridViewTextBoxColumn.HeaderText = "SWAT";
-            this.swatDataGridViewTextBoxColumn.Name = "swatDataGridViewTextBoxColumn";
-            this.swatDataGridViewTextBoxColumn.ReadOnly = true;
-            this.swatDataGridViewTextBoxColumn.Width = 5;
-            // 
-            // oztDataGridViewTextBoxColumn
-            // 
-            this.oztDataGridViewTextBoxColumn.DataPropertyName = "ozt";
-            this.oztDataGridViewTextBoxColumn.FillWeight = 90.9381F;
-            this.oztDataGridViewTextBoxColumn.HeaderText = "MERTER";
-            this.oztDataGridViewTextBoxColumn.Name = "oztDataGridViewTextBoxColumn";
-            this.oztDataGridViewTextBoxColumn.ReadOnly = true;
-            this.oztDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // zappDataGridViewTextBoxColumn
-            // 
-            this.zappDataGridViewTextBoxColumn.DataPropertyName = "zapp";
-            this.zappDataGridViewTextBoxColumn.FillWeight = 128.9984F;
-            this.zappDataGridViewTextBoxColumn.HeaderText = "ZAPP";
-            this.zappDataGridViewTextBoxColumn.Name = "zappDataGridViewTextBoxColumn";
-            this.zappDataGridViewTextBoxColumn.ReadOnly = true;
-            this.zappDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // classDataGridViewTextBoxColumn
-            // 
-            this.classDataGridViewTextBoxColumn.DataPropertyName = "class";
-            this.classDataGridViewTextBoxColumn.FillWeight = 126.3161F;
-            this.classDataGridViewTextBoxColumn.HeaderText = "CLASS";
-            this.classDataGridViewTextBoxColumn.Name = "classDataGridViewTextBoxColumn";
-            this.classDataGridViewTextBoxColumn.ReadOnly = true;
-            this.classDataGridViewTextBoxColumn.Width = 60;
-            // 
-            // sesartiDataGridViewTextBoxColumn
-            // 
-            this.sesartiDataGridViewTextBoxColumn.DataPropertyName = "sesarti";
-            this.sesartiDataGridViewTextBoxColumn.FillWeight = 95.27316F;
-            this.sesartiDataGridViewTextBoxColumn.HeaderText = "SAĞ TUŞ";
-            this.sesartiDataGridViewTextBoxColumn.Name = "sesartiDataGridViewTextBoxColumn";
-            this.sesartiDataGridViewTextBoxColumn.ReadOnly = true;
-            this.sesartiDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // seseksiDataGridViewTextBoxColumn
-            // 
-            this.seseksiDataGridViewTextBoxColumn.DataPropertyName = "seseksi";
-            this.seseksiDataGridViewTextBoxColumn.FillWeight = 81.37184F;
-            this.seseksiDataGridViewTextBoxColumn.HeaderText = "SOL TUŞ";
-            this.seseksiDataGridViewTextBoxColumn.Name = "seseksiDataGridViewTextBoxColumn";
-            this.seseksiDataGridViewTextBoxColumn.ReadOnly = true;
-            this.seseksiDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // prgartiDataGridViewTextBoxColumn
-            // 
-            this.prgartiDataGridViewTextBoxColumn.DataPropertyName = "prgarti";
-            this.prgartiDataGridViewTextBoxColumn.FillWeight = 80.26289F;
-            this.prgartiDataGridViewTextBoxColumn.HeaderText = "YUKARI";
-            this.prgartiDataGridViewTextBoxColumn.Name = "prgartiDataGridViewTextBoxColumn";
-            this.prgartiDataGridViewTextBoxColumn.ReadOnly = true;
-            this.prgartiDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // prgeksiDataGridViewTextBoxColumn
-            // 
-            this.prgeksiDataGridViewTextBoxColumn.DataPropertyName = "prgeksi";
-            this.prgeksiDataGridViewTextBoxColumn.FillWeight = 69.0286F;
-            this.prgeksiDataGridViewTextBoxColumn.HeaderText = "AŞAĞI";
-            this.prgeksiDataGridViewTextBoxColumn.Name = "prgeksiDataGridViewTextBoxColumn";
-            this.prgeksiDataGridViewTextBoxColumn.ReadOnly = true;
-            this.prgeksiDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // menuDataGridViewTextBoxColumn
-            // 
-            this.menuDataGridViewTextBoxColumn.DataPropertyName = "menu";
-            this.menuDataGridViewTextBoxColumn.FillWeight = 66.25999F;
-            this.menuDataGridViewTextBoxColumn.HeaderText = "MENÜ";
-            this.menuDataGridViewTextBoxColumn.Name = "menuDataGridViewTextBoxColumn";
-            this.menuDataGridViewTextBoxColumn.ReadOnly = true;
-            this.menuDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // powerDataGridViewTextBoxColumn
-            // 
-            this.powerDataGridViewTextBoxColumn.DataPropertyName = "power";
-            this.powerDataGridViewTextBoxColumn.FillWeight = 69.01872F;
-            this.powerDataGridViewTextBoxColumn.HeaderText = "POWER";
-            this.powerDataGridViewTextBoxColumn.Name = "powerDataGridViewTextBoxColumn";
-            this.powerDataGridViewTextBoxColumn.ReadOnly = true;
-            this.powerDataGridViewTextBoxColumn.Width = 80;
-            // 
-            // red
-            // 
-            this.red.DataPropertyName = "red";
-            this.red.HeaderText = "KIRMIZI";
-            this.red.Name = "red";
-            this.red.ReadOnly = true;
-            // 
-            // green
-            // 
-            this.green.DataPropertyName = "green";
-            this.green.HeaderText = "YEŞİL";
-            this.green.Name = "green";
-            this.green.ReadOnly = true;
-            // 
-            // blue
-            // 
-            this.blue.DataPropertyName = "blue";
-            this.blue.HeaderText = "MAVİ";
-            this.blue.Name = "blue";
-            this.blue.ReadOnly = true;
-            // 
-            // yellow
-            // 
-            this.yellow.DataPropertyName = "yellow";
-            this.yellow.HeaderText = "SARI";
-            this.yellow.Name = "yellow";
-            this.yellow.ReadOnly = true;
-            // 
-            // modelDataGridViewTextBoxColumn
-            // 
-            this.modelDataGridViewTextBoxColumn.DataPropertyName = "model";
-            this.modelDataGridViewTextBoxColumn.FillWeight = 59.44267F;
-            this.modelDataGridViewTextBoxColumn.HeaderText = "MODEL";
-            this.modelDataGridViewTextBoxColumn.Name = "modelDataGridViewTextBoxColumn";
-            this.modelDataGridViewTextBoxColumn.ReadOnly = true;
-            this.modelDataGridViewTextBoxColumn.Width = 500;
             // 
             // contextMenuStrip_copy
             // 
@@ -1592,6 +1447,152 @@
             this.label1.TabIndex = 21;
             this.label1.Text = "V : 3.0";
             // 
+            // ukıdDataGridViewTextBoxColumn
+            // 
+            this.ukıdDataGridViewTextBoxColumn.DataPropertyName = "ukıd";
+            this.ukıdDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.ukıdDataGridViewTextBoxColumn.Name = "ukıdDataGridViewTextBoxColumn";
+            this.ukıdDataGridViewTextBoxColumn.ReadOnly = true;
+            this.ukıdDataGridViewTextBoxColumn.Visible = false;
+            this.ukıdDataGridViewTextBoxColumn.Width = 50;
+            // 
+            // turuDataGridViewTextBoxColumn
+            // 
+            this.turuDataGridViewTextBoxColumn.DataPropertyName = "turu";
+            this.turuDataGridViewTextBoxColumn.FillWeight = 176.2238F;
+            this.turuDataGridViewTextBoxColumn.HeaderText = "TÜRÜ";
+            this.turuDataGridViewTextBoxColumn.Name = "turuDataGridViewTextBoxColumn";
+            this.turuDataGridViewTextBoxColumn.ReadOnly = true;
+            this.turuDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // swatDataGridViewTextBoxColumn
+            // 
+            this.swatDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCellsExceptHeader;
+            this.swatDataGridViewTextBoxColumn.DataPropertyName = "swat";
+            this.swatDataGridViewTextBoxColumn.FillWeight = 156.8657F;
+            this.swatDataGridViewTextBoxColumn.HeaderText = "SWAT";
+            this.swatDataGridViewTextBoxColumn.Name = "swatDataGridViewTextBoxColumn";
+            this.swatDataGridViewTextBoxColumn.ReadOnly = true;
+            this.swatDataGridViewTextBoxColumn.Width = 5;
+            // 
+            // oztDataGridViewTextBoxColumn
+            // 
+            this.oztDataGridViewTextBoxColumn.DataPropertyName = "ozt";
+            this.oztDataGridViewTextBoxColumn.FillWeight = 90.9381F;
+            this.oztDataGridViewTextBoxColumn.HeaderText = "MERTER";
+            this.oztDataGridViewTextBoxColumn.Name = "oztDataGridViewTextBoxColumn";
+            this.oztDataGridViewTextBoxColumn.ReadOnly = true;
+            this.oztDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // zappDataGridViewTextBoxColumn
+            // 
+            this.zappDataGridViewTextBoxColumn.DataPropertyName = "zapp";
+            this.zappDataGridViewTextBoxColumn.FillWeight = 128.9984F;
+            this.zappDataGridViewTextBoxColumn.HeaderText = "ZAPP";
+            this.zappDataGridViewTextBoxColumn.Name = "zappDataGridViewTextBoxColumn";
+            this.zappDataGridViewTextBoxColumn.ReadOnly = true;
+            this.zappDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // classDataGridViewTextBoxColumn
+            // 
+            this.classDataGridViewTextBoxColumn.DataPropertyName = "class";
+            this.classDataGridViewTextBoxColumn.FillWeight = 126.3161F;
+            this.classDataGridViewTextBoxColumn.HeaderText = "CLASS";
+            this.classDataGridViewTextBoxColumn.Name = "classDataGridViewTextBoxColumn";
+            this.classDataGridViewTextBoxColumn.ReadOnly = true;
+            this.classDataGridViewTextBoxColumn.Width = 60;
+            // 
+            // sesartiDataGridViewTextBoxColumn
+            // 
+            this.sesartiDataGridViewTextBoxColumn.DataPropertyName = "sesarti";
+            this.sesartiDataGridViewTextBoxColumn.FillWeight = 95.27316F;
+            this.sesartiDataGridViewTextBoxColumn.HeaderText = "SAĞ TUŞ";
+            this.sesartiDataGridViewTextBoxColumn.Name = "sesartiDataGridViewTextBoxColumn";
+            this.sesartiDataGridViewTextBoxColumn.ReadOnly = true;
+            this.sesartiDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // seseksiDataGridViewTextBoxColumn
+            // 
+            this.seseksiDataGridViewTextBoxColumn.DataPropertyName = "seseksi";
+            this.seseksiDataGridViewTextBoxColumn.FillWeight = 81.37184F;
+            this.seseksiDataGridViewTextBoxColumn.HeaderText = "SOL TUŞ";
+            this.seseksiDataGridViewTextBoxColumn.Name = "seseksiDataGridViewTextBoxColumn";
+            this.seseksiDataGridViewTextBoxColumn.ReadOnly = true;
+            this.seseksiDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // prgartiDataGridViewTextBoxColumn
+            // 
+            this.prgartiDataGridViewTextBoxColumn.DataPropertyName = "prgarti";
+            this.prgartiDataGridViewTextBoxColumn.FillWeight = 80.26289F;
+            this.prgartiDataGridViewTextBoxColumn.HeaderText = "YUKARI";
+            this.prgartiDataGridViewTextBoxColumn.Name = "prgartiDataGridViewTextBoxColumn";
+            this.prgartiDataGridViewTextBoxColumn.ReadOnly = true;
+            this.prgartiDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // prgeksiDataGridViewTextBoxColumn
+            // 
+            this.prgeksiDataGridViewTextBoxColumn.DataPropertyName = "prgeksi";
+            this.prgeksiDataGridViewTextBoxColumn.FillWeight = 69.0286F;
+            this.prgeksiDataGridViewTextBoxColumn.HeaderText = "AŞAĞI";
+            this.prgeksiDataGridViewTextBoxColumn.Name = "prgeksiDataGridViewTextBoxColumn";
+            this.prgeksiDataGridViewTextBoxColumn.ReadOnly = true;
+            this.prgeksiDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // menuDataGridViewTextBoxColumn
+            // 
+            this.menuDataGridViewTextBoxColumn.DataPropertyName = "menu";
+            this.menuDataGridViewTextBoxColumn.FillWeight = 66.25999F;
+            this.menuDataGridViewTextBoxColumn.HeaderText = "MENÜ";
+            this.menuDataGridViewTextBoxColumn.Name = "menuDataGridViewTextBoxColumn";
+            this.menuDataGridViewTextBoxColumn.ReadOnly = true;
+            this.menuDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // powerDataGridViewTextBoxColumn
+            // 
+            this.powerDataGridViewTextBoxColumn.DataPropertyName = "power";
+            this.powerDataGridViewTextBoxColumn.FillWeight = 69.01872F;
+            this.powerDataGridViewTextBoxColumn.HeaderText = "POWER";
+            this.powerDataGridViewTextBoxColumn.Name = "powerDataGridViewTextBoxColumn";
+            this.powerDataGridViewTextBoxColumn.ReadOnly = true;
+            this.powerDataGridViewTextBoxColumn.Width = 80;
+            // 
+            // red
+            // 
+            this.red.DataPropertyName = "red";
+            this.red.HeaderText = "KIRMIZI";
+            this.red.Name = "red";
+            this.red.ReadOnly = true;
+            // 
+            // green
+            // 
+            this.green.DataPropertyName = "green";
+            this.green.HeaderText = "YEŞİL";
+            this.green.Name = "green";
+            this.green.ReadOnly = true;
+            // 
+            // blue
+            // 
+            this.blue.DataPropertyName = "blue";
+            this.blue.HeaderText = "MAVİ";
+            this.blue.Name = "blue";
+            this.blue.ReadOnly = true;
+            // 
+            // yellow
+            // 
+            this.yellow.DataPropertyName = "yellow";
+            this.yellow.HeaderText = "SARI";
+            this.yellow.Name = "yellow";
+            this.yellow.ReadOnly = true;
+            // 
+            // modelDataGridViewTextBoxColumn
+            // 
+            this.modelDataGridViewTextBoxColumn.DataPropertyName = "model";
+            this.modelDataGridViewTextBoxColumn.FillWeight = 59.44267F;
+            this.modelDataGridViewTextBoxColumn.HeaderText = "MODEL";
+            this.modelDataGridViewTextBoxColumn.Name = "modelDataGridViewTextBoxColumn";
+            this.modelDataGridViewTextBoxColumn.ReadOnly = true;
+            this.modelDataGridViewTextBoxColumn.Width = 500;
+            // 
             // frmekle
             // 
             this.AllowDrop = true;
@@ -1751,6 +1752,8 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox_ayar;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button_sil;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ukıdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn turuDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn swatDataGridViewTextBoxColumn;
@@ -1768,8 +1771,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn blue;
         private System.Windows.Forms.DataGridViewTextBoxColumn yellow;
         private System.Windows.Forms.DataGridViewTextBoxColumn modelDataGridViewTextBoxColumn;
-        private System.Windows.Forms.Button button_sil;
-        private System.Windows.Forms.Label label1;
     }
 }
 
