@@ -1,0 +1,92 @@
+
+KMP V2 Sürüm Notlarý.
+
+* Arama textboxýna yazýlan kelimeyi googlede arama özelliði eklendi.
+* Arama textboxýna yazýlan kelimeyi googlede SWAT firma sitesinde arama özelliði eklendi.
+* Kullanýcý hatalarýna karþý denetim ve uyarý mesajlarý eklendi.
+* Veritabaný güncellemeleri yapýldý.(2019 swat uydu kodlarý eklendi resimleri ile birlikte.)
+* Ana ekrana düzenleme ve kilitleme fonksiyonu ve kontrolü eklendi.
+* Açýlýr menüye düzenleme ve kilitleme fonksiyonu ve kontrolü eklendi. 
+* Görsel düzenlemeler yapýldý.
+* COM port otomatik bulma özelliði eklendi.
+* DONGLE aygýtý takýlý veya deðil kontrolü saðlandý.
+* Kod karþýlaþtýrma algoritmasý geliþtirildi.
+* Kayýtlar arasý veri kopyalama özelliði eklendi.
+* Kayýtlarý export etme özelliði eklendi.(masaüstüne dosya olarak)
+* Kayýt inport etme özelliði eklendi. (dosyadan)
+* Hakkýnda formuna kayýt adetlerini gösteren datagrid eklendi.
+
+
+KMP V2.1.0.1 Sürüm Notlarý.
+
+* Ekran görüntüsü alma özelliði eklendi.
+* Veritabanýný yedekleme (export)özelliði eklendi.
+* Yedeklenmiþ veri tabanýný (import) geri yükleme özelliði eklendi.
+* Veri tabanýn güncellendi.( eservisler co admin EMÝN ustamýza tesþekkürler).
+* Hakkýnda kýsmýnda datagride kumanda türüne göre adetler satýrý eklendi.
+* Kaydetme algoritmasý düzenlendi.
+
+
+KMP V2.2.0.2 Sürüm Notlarý.
+* DONGLE baðlý iken çýkarýlýrsa oluþan hata düzeltildi uyarý mesajý eklendi .
+* Açýlýr menüde kriteri sil seçeneði kaldýrýldý.Form üzerindeki buton (kriteri temizle )ile ayný iþlem yapýlabiliyor.
+* Kriter sil butonu pasifize edildi muadil bul týklandýðýnda aktif olacak þekilde düzenlendi.
+* Giriþ formunda demo kullaným mesajbox kutusuna hak kullanýmýndan vazgeçme seçeneði eklendi.
+* Form açýldýðýnda (DONGLE takýlý ise)  aygýtýa otomatik baðlanmasý saðlandý.
+* Hex Kod kriterlerine ( KIRMIZI YEÞÝL SARI MAVÝ  ) tuþlarý eklendi eklendi.
+* Veritabanýnda eklenen kriterlerin düzenlemesi yapýldý.( yedeklemeler V2 veri tabaný olarak adlandýrýldý )
+* Butonlarýn üzerine gelindiðinde ilgili butonun yardým metni balonu eklendi.
+* Ayarlar sekmesi eklendi.
+* Ayarlar sekmesine yardým metninin açýk kapalý seçilmesi saðlandý.
+* Görsel düzenlemeler yapýldý.
+* Veri tabaný güncellemeleri sürekli yapýlmaktadýr.(Eservisler Co Admin Emin Özdemir ustamýza teþekkürler.)
+* Hakkýnda kýsmýnda veri istatik gridi ( KIRMIZI YEÞÝL SARI MAVÝ ) adetleri eklendi.
+* Veri Gönder seçeneðinde paylaþýlan dosyaya ilgili kayýtýn tüm verileri resim dahil eklendi.
+* Veri Al seçeneðinde paylaþýlan dosya içerisindeki tüm verilerin alýnmasý saðlandý resim dahil.
+* Güncelle butonu ilave edildi.(mevcut kayýtlar deðiþtirildiðinde kullanýlýr.)
+* Mükerrer kayýt kontrolu yapýldý.(swat kodu mevcutta var ise tekrar ilave edilemez)
+* Hakkýnda datagridine veritabaný'nýn tarih versiyonu eklendi.
+
+KMP V.2.2.0.3 Sürüm Notlarý.
+* DONGLE baðlý iken çýkarýlýrsa oluþan hata düzeltildi uyarý mesajý eklendi .
+* Açýlýr menüde kriteri sil seçeneði kaldýrýldý.Form üzerindeki buton (kriteri temizle )ile ayný iþlem yapýlabiliyor.
+* Kriter sil butonu pasifize edildi muadil bul týklandýðýnda aktif olacak þekilde düzenlendi.
+* Giriþ formunda demo kullaným mesajbox kutusuna hak kullanýmýndan vazgeçme seçeneði eklendi.
+* Form açýldýðýnda (DONGLE takýlý ise) aygýtýa otomatik baðlanmasý saðlandý.
+* Hex Kod kriterlerine ( KIRMIZI YEÞÝL SARI MAVÝ ) tuþlarý eklendi eklendi.
+* Veritabanýnda eklenen kriterlerin düzenlemesi yapýldý.( yedeklemeler V2 veri tabaný olarak adlandýrýldý )
+* Butonlarýn üzerine gelindiðinde ilgili butonun yardým metni balonu eklendi.
+* Ayarlar sekmesi eklendi.
+* Ayarlar sekmesine yardým metninin açýk kapalý seçilmesi saðlandý.
+* Görsel düzenlemeler yapýldý.
+* Veri tabaný güncellemeleri sürekli yapýlmaktadýr.(Eservisler Co Admin Emin Özdemir ustamýza teþekkürler.)
+* Hakkýnda kýsmýnda veri istatik gridi ( KIRMIZI YEÞÝL SARI MAVÝ ) adetleri eklendi.
+* Veri Gönder seçeneðinde paylaþýlan dosyaya ilgili kayýtýn tüm verileri resim dahil eklendi.
+* Veri Al seçeneðinde paylaþýlan dosya içerisindeki tüm verilerin alýnmasý saðlandý resim dahil.
+* Güncelle butonu ilave edildi.(mevcut kayýtlar deðiþtirildiðinde kullanýlýr.)
+* Mükerrer kayýt kontrolu yapýldý.(swat kodu mevcutta var ise tekrar ilave edilemez)
+* Hakkýnda datagridine veritabaný'nýn tarih versiyonu eklendi.
+* Resim eklemeden yeni kayýt oluþturulamaz.
+* Datagrid ekleme ve güncellem sýrasýnda pasif hale getirildi.
+
+
+v3 notlar.
+
+s.a arkadaþlar
+v: 3.0 beta hazýr test edip görüþ yazarsanýz sevinirim.
+1-veritabaný altyapýsýnda güncelleme yapýldý. V4 veritabaný kullanýlacak.
+2-yeni kayýt ekleme ile ilgili eksikler giderildi.
+3-kayýt güncelleme ile ilgili eksikler giderildi.
+4-program iþlem yaparken kum saati animasyonu eklendi.
+5-SÝL butonu ve kodlarý eklendi.
+6-ayarlar kýsmý menü altýna alýndý.
+7-menü altýna EKRAN RESMÝ AL eklendi.
+8-form üzerine versiyon bilgisini gösteren label eklendi.
+
+
+
+
+
+
+
+
